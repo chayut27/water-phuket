@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-gray-50 py-10 text-gray-700">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-3">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           <div className="">
             <div className="text-5xl">Logo</div>
             <ul className="flex flex-col gap-2 mt-10">
@@ -34,7 +34,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="mt-5 md:mt-0">
             <ul className=" space-y-3 text-lg">
               <li>หน้าแรก</li>
               <li>เกี่ยวกับ</li>
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div>
             <ul>
-              <li className="mb-5 text-lg">บริการ</li>
+              <li className="mt-4 md:mt-0 mb-5 text-lg">บริการ</li>
               <li>
                 <ul className="space-y-2">
                   <li>ให้คำปรึกษา - ประเมินหน้างานฟรี</li>
